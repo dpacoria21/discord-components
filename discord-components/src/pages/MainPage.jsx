@@ -5,7 +5,7 @@ import { AppRouter } from '../router/AppRouter'
 export const MainPage = () => {
     return (
         <>
-            <Navbar />
+            <Navbar/>
             <AppRouter />
         </>
     )

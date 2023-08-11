@@ -5,12 +5,10 @@ import { MainDisplayPage } from "../pages/MainDisplayPage"
 
 export const AppRouter = () => {
     return (
-                <Routes>
-
-                    <Route path="/left-sidebar" element={<LeftSidebarPage />}/>
-                    <Route path="/right-sidebar" element={<RightSidebarPage />}/>
-                    <Route path="/main-display" element={<MainDisplayPage />}/>
-
-                </Routes>
+        <Routes>
+            <Route path="/left-sidebar" element={<LeftSidebarPage />}/>
+            <Route path="/right-sidebar" element={<RightSidebarPage />}/>
+            <Route path="/main-display" element={<MainDisplayPage />}/>
+        </Routes>
     )
 }
