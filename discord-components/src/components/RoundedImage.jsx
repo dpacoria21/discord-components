@@ -23,6 +23,15 @@ export const RoundedImage = ({group}) => {
                     <div className='absolute transition-all duration-300 ease-in-out w-3 h-3 rounded-3xl group-hover:h-4/6 pointer-events-none bg-slate-50 -left-1.5'></div>
                 </div>
             </div>
+
+            {
+                group.img === 'img-1.jpg' ? (
+                        <div className='flex flex-col items-center justify-center -translate-y-1'>
+                            <hr className=' w-2/4 border-[1.75px] rounded-xl border-slate-600'/>
+                        </div>) 
+                    : 
+                        ''
+            }
         
         </>
     )

@@ -8,7 +8,7 @@ export const LeftSidebarPage = () => {
         <>
             <div className='flex'>
 
-                <div className=' min-h-screen w-[80px] flex flex-col grow-0 gap-4 py-2 bg-zinc-900'>
+                <div className='min-h-screen w-[80px] flex flex-col grow-0 gap-4 py-2 bg-zinc-900'>
                     {
                         groups.map((group) => (
                             <RoundedImage key={group.img} group={group}/>
@@ -16,9 +16,7 @@ export const LeftSidebarPage = () => {
                     }
                 </div>
 
-                <div className='flex grow bg-zinc-800'>
-
-                </div>
+                <div className='flex grow bg-zinc-800'></div>
 
 
             </div>
