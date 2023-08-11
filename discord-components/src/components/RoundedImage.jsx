@@ -16,7 +16,7 @@ export const RoundedImage = ({group}) => {
                             {group.messages}
                         </p>
                     </a>
-                    <div className='flex items-center '>
+                    <div className='flex items-center opacity-0 transition-all duration-300 group-hover:opacity-100'>
                         <p className='absolute z-10 text-white hidden w-36 text-center left-24 bg-zinc-700 group-hover:block px-4 py-2 rounded-lg'>{group.description}</p>
                         <div className='absolute hidden border-8 border-transparent border-r-zinc-700 left-20 group-hover:block'></div>
                     </div>
