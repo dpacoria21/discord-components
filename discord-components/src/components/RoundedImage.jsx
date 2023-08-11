@@ -3,9 +3,9 @@ import React from 'react'
 export const RoundedImage = ({img}) => {
     console.log(img);
     return (
-        <div className='flex justify-center items-center relative'>
-            <div className='group h-max flex items-center'>
-                <a href="#" className='w-14 h-14 transition-all duration-300 ease-in-out rounded-[50px] overflow-hidden hover:rounded-xl'>
+        <div className='flex justify-center items-center'>
+            <div className='group h-max flex items-center relative'>
+                <a href="#" className='w-14 h-14 transition-all duration-300 ease-in-out rounded-[50px] overflow-hidden hover:rounded-3xl'>
                     <div className='hover:bg-slate-200/20 w-14 h-14 bg-cover bg-center bg-no-repeat' style={{
                         backgroundImage: `url('${img}')`,
                     }}>
