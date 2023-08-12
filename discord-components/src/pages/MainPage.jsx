@@ -5,8 +5,10 @@ import { AppRouter } from '../router/AppRouter'
 export const MainPage = () => {
     return (
         <>
-            <Navbar/>
-            <AppRouter />
+            <div className='flex flex-col h-screen'>
+                <Navbar/>
+                <AppRouter />
+            </div>
         </>
     )
 }

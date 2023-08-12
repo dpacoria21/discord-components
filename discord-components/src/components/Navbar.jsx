@@ -22,7 +22,7 @@ export const Navbar = () => {
                 <li>
                     <NavLink to={'/main-display'} className={({isActive}) => 
                         isActive ? 'px-4 py-2 rounded-lg bg-slate-600/90 transition ease-linear' : 'px-4 py-2 rounded-lg hover:bg-slate-200/10'
-                    } >Main Display</NavLink>
+                    } >Modal Display</NavLink>
                 </li>
             </ul>
 
